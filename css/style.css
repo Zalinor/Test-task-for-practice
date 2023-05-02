@@ -1,0 +1,71 @@
+input {
+    width: 500px;
+    height: 35px;
+    background-color: #262d3a;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+p{
+    font-family: arial;
+    font-size: 20px;
+}
+.sub{
+    width: 300px;
+    height: 35px;
+    margin-right: 20px;
+}
+.num{
+    width: 50px;
+    height: 35px;
+    margin-right: 20px;
+}
+.subtask{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-container{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.add-subtask-but{
+    width: 500px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.save-subtask-but, .create-new-task{
+    width: 240px;
+}
+.remove-but{
+    width: 100px;
+    height: 40px;
+}
+.save-subtask-but, .create-new-task, .add-subtask-but, .remove-but{
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    color:black;
+}
+.save-subtask-but:hover, .create-new-task:hover, .add-subtask-but:hover, .remove-but:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: black;
+    text-decoration: none;
+}
+         
+
